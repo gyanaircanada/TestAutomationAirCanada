@@ -16,5 +16,6 @@ public class Mytest extends AbstractTestNGCucumberTests{
 public void a()
 {
 	System.out.println("asdsa");
+	System.out.println("asdsa");
 }
 }
