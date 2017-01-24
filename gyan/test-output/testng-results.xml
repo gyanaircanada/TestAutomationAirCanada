@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Custom suite" duration-ms="9895" started-at="2017-01-11T12:10:12Z" finished-at="2017-01-11T12:10:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Mytest@e45f292]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Mytest@5025a98f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test 2" duration-ms="9892" started-at="2017-01-11T12:10:12Z" finished-at="2017-01-11T12:10:22Z">
+      <class name="runner.Mytest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Mytest@5025a98f]" name="setUpClass" is-config="true" duration-ms="263" started-at="2017-01-11T17:40:12Z" finished-at="2017-01-11T17:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Mytest@5025a98f]" name="feature" duration-ms="9507" started-at="2017-01-11T17:40:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-01-11T17:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The facebook smoke scenario]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Mytest@5025a98f]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2017-01-11T17:40:22Z" finished-at="2017-01-11T17:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Mytest -->
+    </test> <!-- Test 2 -->
+    <test name="Test 1" duration-ms="9895" started-at="2017-01-11T12:10:12Z" finished-at="2017-01-11T12:10:22Z">
+      <class name="runner.Mytest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Mytest@e45f292]" name="setUpClass" is-config="true" duration-ms="262" started-at="2017-01-11T17:40:12Z" finished-at="2017-01-11T17:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Mytest@e45f292]" name="feature" duration-ms="9525" started-at="2017-01-11T17:40:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-01-11T17:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The facebook smoke scenario]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Mytest@e45f292]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2017-01-11T17:40:22Z" finished-at="2017-01-11T17:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Mytest -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Custom suite -->
+</testng-results>
